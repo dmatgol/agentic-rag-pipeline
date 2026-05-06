@@ -6,8 +6,6 @@ from typing import Any, Literal
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
-from agent.models import EvidenceCheck, RetrievedChunk
-from agent.models import RetrievalPlan
 
 
 class EvaluationJudgement(BaseModel):
