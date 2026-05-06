@@ -31,7 +31,7 @@ I also created a documents_manifest.json (```src/ingestion/documents_manifest.js
 
 ![Agentic RAG Pipeline Design](agentic_rag_design.png)
 
-![Streamlit Application Frontendign](evaluation-streamlit-frontend.png)
+![Streamlit Application Frontend](evaluation-streamlit-frontend.png)
 
 
 ##  Part 1 — Document Processing and Embeddings
