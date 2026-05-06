@@ -51,7 +51,7 @@ class RetrievalPlan(BaseModel):
     ]
     target_companies: list[str] = Field(default_factory=list, description="The companies to search for.")
     target_quarters: list[str] = Field(default_factory=list, description="The quarters to search for.")
-    target_years: list[str] = Field(default_factory=list, description="The years to search for.")
+    target_years: list[int] = Field(default_factory=list, description="The years to search for.")
     
     search_requests: list[SearchRequest] = Field(default_factory=list, description="The search requests to perform.")
 

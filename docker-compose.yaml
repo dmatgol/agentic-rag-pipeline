@@ -1,0 +1,32 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  app:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+    command: streamlit run src/scripts/app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+
+
+  ingest:
+    build: .
+    profiles: ["tools"]
+    env_file:
+      - .env
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+    command: python src/scripts/ingest_documents.py
+    restart: "no"
+
+
+volumes:
+  qdrant_data:

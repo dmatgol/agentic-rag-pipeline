@@ -28,8 +28,11 @@ Work in this order:
   One search request per entity is sufficient.
 
 **STEP 3 — Limits**
-- For numeric-value questions set limit = 20 on every request.
+- For numeric-value questions set limit = 25 on every request.
 - For all other questions set limit = 15 on every request.
+
+**STEP 4 — Company to ticker mapping **
+Apple - AAPL; Microsoft - MSFT; Amazon - AMZN; Intel - INTC; NVIDIA - NVDA;
 
 # CRITICAL RULES
 - Return valid JSON only that matches the required schema.

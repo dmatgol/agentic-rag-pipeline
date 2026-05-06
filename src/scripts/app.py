@@ -135,16 +135,14 @@ def rag_mode(graph):
             final_answer = result["final_answer"]
 
             answer_text = final_answer.get("answer", "")
-            sources = final_answer.get("sources", [])
 
             st.markdown(answer_text)
-            render_sources(sources)
+            st.json(result.get("final_answer"))
 
     st.session_state.messages.append(
         {
             "role": "assistant",
             "content": answer_text,
-            "sources": sources,
         }
     )
 
