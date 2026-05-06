@@ -1,0 +1,32 @@
+[
+    {
+      "id": "eval_001",
+      "question": "What was Apple’s net sales in Q3 2022?",
+      "expected_answer": "Apple reported net sales of $82.959 billion in Q3 2022.",
+      "expected_companies": ["AAPL"],
+      "expected_years": [2022],
+      "expected_quarters": ["Q3"],
+      "expected_metric": "net sales",
+      "question_type": "single_company_quantitative"
+    },
+    {
+      "id": "eval_002",
+      "question": "Among Apple, Microsoft, and Amazon, which company reported the highest revenue in Q3 2022?",
+      "expected_answer": "Amazon reported the highest revenue among Apple, Microsoft, and Amazon in Q3 2022, based on the indexed quarterly reports.",
+      "expected_companies": ["AAPL", "MSFT", "AMZN"],
+      "expected_years": [2022],
+      "expected_quarters": ["Q3"],
+      "expected_metric": "revenue",
+      "question_type": "multi_company_comparison"
+    },
+    {
+      "id": "eval_003",
+      "question": "What is the total cost incurred for Intel, Nvidia and Microsoft on year 2023 for all the quarters?",
+      "expected_answer": "Microsoft doesnt provide total cost incurred figures for the year 2023, so amongst Intel and Nvidia, Intel is the one who incurred in higher total costs.",
+      "expected_companies": ["INTC", "NVDA", "MSFT"],
+      "expected_years": [2023],
+      "expected_quarters": ["Q1", "Q2", "Q3"],
+      "expected_metric": "total cost incurred",
+      "question_type": "multi_company_quantitative"
+    }
+  ]
