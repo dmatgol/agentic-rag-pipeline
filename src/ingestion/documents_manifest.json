@@ -1,0 +1,162 @@
+[
+    {
+        "file_name": "2022 Q3 AAPL.pdf",
+        "company_ticker": "AAPL",
+        "company_name": "Apple",
+        "year": "2022",
+        "quarter": "Q3",
+        "source_path": "data/2022 Q3 AAPL.pdf"
+    },
+    {
+        "file_name": "2022 Q3 AMZN.pdf",
+        "company_ticker": "AMZN",
+        "company_name": "Amazon",
+        "year": "2022",
+        "quarter": "Q3",
+        "source_path": "data/2022 Q3 AMZN.pdf"
+    },
+    {
+        "file_name": "2022 Q3 INTC.pdf",
+        "company_ticker": "INTC",
+        "company_name": "Intel",
+        "year": "2022",
+        "quarter": "Q3",
+        "source_path": "data/2022 Q3 INTC.pdf"
+    },
+    {
+        "file_name": "2022 Q3 MSFT.pdf",
+        "company_ticker": "MSFT",
+        "company_name": "Microsoft",
+        "year": "2022",
+        "quarter": "Q3",
+        "source_path": "data/2022 Q3 MSFT.pdf"
+    },
+    {
+        "file_name": "2022 Q3 NVDA.pdf",
+        "company_ticker": "NVDA",
+        "company_name": "NVIDIA",
+        "year": "2022",
+        "quarter": "Q3",
+        "source_path": "data/2022 Q3 NVDA.pdf"
+    },
+    {
+        "file_name": "2023 Q1 AAPL.pdf",
+        "company_ticker": "AAPL",
+        "company_name": "Apple",
+        "year": "2023",
+        "quarter": "Q1",
+        "source_path": "data/2023 Q1 AAPL.pdf"
+    },
+    {
+        "file_name": "2023 Q1 AMZN.pdf",
+        "company_ticker": "AMZN",
+        "company_name": "Amazon",
+        "year": "2023",
+        "quarter": "Q1",
+        "source_path": "data/2023 Q1 AMZN.pdf"
+    },
+    {
+        "file_name": "2023 Q1 INTC.pdf",
+        "company_ticker": "INTC",
+        "company_name": "Intel",
+        "year": "2023",
+        "quarter": "Q1",
+        "source_path": "data/2023 Q1 INTC.pdf"
+    },
+    {
+        "file_name": "2023 Q1 MSFT.pdf",
+        "company_ticker": "MSFT",
+        "company_name": "Microsoft",
+        "year": "2023",
+        "quarter": "Q1",
+        "source_path": "data/2023 Q1 MSFT.pdf"
+    },
+    {
+        "file_name": "2023 Q1 NVDA.pdf",
+        "company_ticker": "NVDA",
+        "company_name": "NVIDIA",
+        "year": "2023",
+        "quarter": "Q1",
+        "source_path": "data/2023 Q1 NVDA.pdf"
+    },
+    {
+        "file_name": "2023 Q2    AAPL.pdf",
+        "company_ticker": "AAPL",
+        "company_name": "Apple",
+        "year": "2023",
+        "quarter": "Q2",
+        "source_path": "data/2023 Q2 AAPL.pdf"
+    },
+    {
+        "file_name": "2023 Q2 AMZN.pdf",
+        "company_ticker": "AMZN",
+        "company_name": "Amazon",
+        "year": "2023",
+        "quarter": "Q2",
+        "source_path": "data/2023 Q2 AMZN.pdf"
+    },
+    {
+        "file_name": "2023 Q2 INTC.pdf",
+        "company_ticker": "INTC",
+        "company_name": "Intel",
+        "year": "2023",
+        "quarter": "Q2",
+        "source_path": "data/2023 Q2 INTC.pdf"
+    },
+    {
+        "file_name": "2023 Q2 MSFT.pdf",
+        "company_ticker": "MSFT",
+        "company_name": "Microsoft",
+        "year": "2023",
+        "quarter": "Q2",
+        "source_path": "data/2023 Q2 MSFT.pdf"
+    },
+    {
+        "file_name": "2023 Q2 NVDA.pdf",
+        "company_ticker": "NVDA",
+        "company_name": "NVIDIA",
+        "year": "2023",
+        "quarter": "Q2",
+        "source_path": "data/2023 Q2 NVDA.pdf"
+    },
+    {
+        "file_name": "2023 Q3 AAPL.pdf",
+        "company_ticker": "AAPL",
+        "company_name": "Apple",
+        "year": "2023",
+        "quarter": "Q3",
+        "source_path": "data/2023 Q3 AAPL.pdf"
+    },    
+    {
+        "file_name": "2023 Q3 AMZN.pdf",
+        "company_ticker": "AMZN",
+        "company_name": "Amazon",
+        "year": "2023",
+        "quarter": "Q3",
+        "source_path": "data/2023 Q3 AMZN.pdf"
+    },    
+    {
+        "file_name": "2023 Q3 INTC.pdf",
+        "company_ticker": "INTC",
+        "company_name": "Intel",
+        "year": "2023",
+        "quarter": "Q3",
+        "source_path": "data/2023 Q3 INTC.pdf"
+    },
+    {
+        "file_name": "2023 Q3 MSFT.pdf",
+        "company_ticker": "MSFT",
+        "company_name": "Microsoft",
+        "year": "2023",
+        "quarter": "Q3",
+        "source_path": "data/2023 Q3 MSFT.pdf"
+    },
+    {
+        "file_name": "2023 Q3 NVDA.pdf",
+        "company_ticker": "NVDA",
+        "company_name": "NVIDIA",
+        "year": "2023",
+        "quarter": "Q3",
+        "source_path": "data/2023 Q3 NVDA.pdf"
+    }
+]
