@@ -3,7 +3,7 @@
 
 ## Setup
 ### Prerequisites
-- **Docker** and **Docker Compose** (recommended)
+- **Docker** and **Docker Compose** 
 - **OpenAI** API access (chat completion + embeddings).
 - **LlamaCloud** API key for PDF parsing (LlamaParse), used during ingestion.
 
