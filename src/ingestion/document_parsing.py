@@ -3,10 +3,9 @@ from typing import Any
 
 import fitz
 import tempfile
-import ollama
 from llama_cloud import LlamaCloud
 import json
-
+from openai import OpenAI
 from settings import settings
 
 
@@ -25,6 +24,7 @@ class DocumentParser:
                 "LlamaCloud API key missing: set LLAMA_CLOUD_API_KEY in .env or pass llama_cloud_api_key=..."
             )
         self.llama_parse_client = LlamaCloud(api_key=api_key)
+        self.openai_client = OpenAI(api_key=settings.openai_api_key)
 
     def parse_document(self, document_path: Path) -> list[dict[str, Any]]:
         """First Parse of the document using LlamaParse.
@@ -175,8 +175,8 @@ class DocumentParser:
             {image_path}
         """
         
-        response = ollama.chat(
-            model="qwen2.5vl:3b",
+        response = self.openai_client.chat.completions.create(
+            model=settings.vlm_model,
             messages=[
                 {
                     "role": "system",  "content": system_prompt,
@@ -215,13 +215,4 @@ class DocumentParser:
 
     
 
-
-
-if __name__ == "__main__":
-    json_data = json.load(open("/Users/diogoferreirapiresdeoliveiramatias/Desktop/agentic-rag-pipeline/src/ingestion/documents_manifest.json"))
-    json_data = json_data[0]
-
-    parser = DocumentParser()
-    pages =parser.parse_document(json_data["source_path"], json_data)
-    print(pages)
             
